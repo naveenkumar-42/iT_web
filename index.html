@@ -891,15 +891,42 @@
         </div>
       </footer>
        
-
-
-     
-
-
-
-
+    
 
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
          <script src="./js/main.js"></script>
+
+         <script>
+          var swiper;
+    
+    function initializeSwiper() {
+    if (window.innerWidth <= 1024) {
+    swiper = new Swiper("#testimonialSlider", {
+    loop: true,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 2500,
+    },
+    });
+    } else {
+    swiper = new Swiper("#testimonialSlider", {
+    loop: true,
+    slidesPerView: 3,
+    autoplay: {
+      delay: 2000,
+    },
+    });
+    }
+    }
+    
+    initializeSwiper();
+    window.addEventListener("resize", function () {
+    if (swiper) {
+    swiper.destroy();
+    }
+    initializeSwiper();
+    });
+    </script>
+    
 </body>
 </html>
