@@ -90,6 +90,7 @@
     flex-direction: column;
     gap:1.2rem;
     margin-right: 4rem;
+    align-items: center;
 }
 
 .form__name {

@@ -35,8 +35,8 @@ height: 250px;
 }
 
 .course__image img {
-max-height: 230px;
-max-width: 100%;
+height: 230px;
+width: 100%;
 object-fit: contain;
 }
 

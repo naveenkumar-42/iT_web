@@ -218,6 +218,12 @@ html{
         grid-template-columns:repeat(3, 1fr);
         gap: 1.2rem;
     }
+
+    .rewards{
+        text-align: center;
+        align-items: center;
+    }
+    
     .category {
         background-color: var(--color-bg2);
         padding:2rem;
@@ -300,6 +306,10 @@ html{
         margin: 1.2rem 0 2rem;
         font-size: 0.9rem;
     } 
+
+    .course h4{
+        margin-bottom: 1rem;
+    }
 
     .faqs {
         background: var(--color-bg1);
@@ -389,9 +399,9 @@ html{
 
     .testimonial__body {
         background: var(--color-primary);
-        padding: 4rem;
+        padding: 2rem;
         margin-top: 2rem;
-        height: 5rem;
+        height: 6rem;
         position: relative;
         width: 50%;
         margin-left: -25%;
@@ -400,19 +410,21 @@ html{
 
     .testimonial__body p {
         align-items: center;
-       margin-bottom: 1rem;
+
     }
 
     .testimonial__body::before {
-        content: "";
+        content: "";    
         display: block;
         background: linear-gradient(135deg, transparent, var(--color-primary), var(--color-primary), var(--color-primary));
         width: 3rem;
         height: 5rem;
         position: absolute;
-        left: calc(50% - 1.5rem);
+        left: calc(50% - 2.1rem);
         top: -1.5rem;
-        transform: rotate(45deg);
+        trans
+        : rotate(45deg);
+        z-index: -1;
     }
 
       
