@@ -24,12 +24,9 @@
         position: fixed;
         top:0;
         z-index: 11;
-
-    }
-
-    .window-scroll{
         background: var(--color-primary);
         box-shadow: 0 1rem 2rem rgba(0, 0,0,0.2);
+
     }
 
     .nav__container  {
