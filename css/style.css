@@ -185,8 +185,8 @@ html{
     }
     /* ============== CATEGORIES =========================== */
     .reward{
-          width : 320% ;
-        height : 620px ; 
+        width : 200% ;
+        height : 720px ; 
         padding: 30px;
         background-color: var(--color-bg2);
     }
